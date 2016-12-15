@@ -38,11 +38,6 @@ catch (const cv::Exception &e) \
     return 0; \
 }
 
-//===================   ERROR HANDLING     =========================================================
-
-static int failmsg(const char *fmt, ...);
-static PyObject* failmsgp(const char *fmt, ...);
-
 //===================   THREADING     ==============================================================
 class PyAllowThreads;
 class PyEnsureGIL;
