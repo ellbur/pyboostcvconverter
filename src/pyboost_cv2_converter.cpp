@@ -12,6 +12,8 @@
 namespace pbcvt{
 using namespace cv;
 
+static PyObject* opencv_error = 0;
+
 //===================   ERROR HANDLING     =========================================================
 static int failmsg(const char *fmt, ...)
 		{
